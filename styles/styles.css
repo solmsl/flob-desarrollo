@@ -10,7 +10,7 @@ html {
 
 body {
   overflow-x: hidden;
-  background: rgb(13, 7, 27);
+  background: #05071b;
 }
 
 /* GRID SYSTEM */
@@ -388,6 +388,12 @@ nav ul a {
   visibility: visible;
 }
 
+footer {
+  color: rgb(209, 203, 203);
+  font-size: 16px;
+  text-align: center;
+}
+
 /* PAGES */
 /* index */
 #subtitulo {
@@ -480,7 +486,14 @@ nav ul a {
   width: 5%;
 }
 
-/* quienes somos*/
+@font-face {
+  font-family: "font";
+  src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "diseño mejor";
+  src: url("/fonts/Yellowtail/Yellowtail-Regular.ttf");
+}
 h1 {
   color: white;
   font-family: "font";
@@ -492,19 +505,18 @@ h1:hover {
   color: rgb(209, 11, 209);
 }
 
-h2 {
-  color: rgb(218, 17, 218);
-  color: white;
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 20px;
+#card-quienesssomos {
+  border-radius: 10px;
+  background: linear-gradient(to top, rgb(102, 90, 168), rgb(13, 47, 241), rgb(28, 255, 255));
+  border: none;
 }
 
-.texto-quienessomos {
-  display: inline-block;
-  vertical-align: top;
+#um {
+  color: rgb(255, 5, 234);
+}
+
+#textoo {
   color: white;
-  z-index: 100;
 }
 
 /*# sourceMappingURL=styles.css.map */

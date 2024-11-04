@@ -1,5 +1,4 @@
-/* quienes somos*/
-@use "../components/fonts";
+@import "../components/fonts";
 
 h1{
     color: white;
@@ -13,17 +12,17 @@ h1{
     }
 }
 
-h2{
-    color: rgb(218, 17, 218);
-    color: white;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 20px;
+#card-quienesssomos{ 
+    border-radius: 10px; 
+    background: linear-gradient(to top, rgb(102, 90, 168), rgb(13, 47, 241), rgb(28, 255, 255));
+    border: none;
+
 }
 
-.texto-quienessomos{
-    display: inline-block;
-    vertical-align: top;
+#um{
+    color: rgb(255, 5, 234);
+}
+
+#textoo{
     color: white;
-    z-index: 100;
 }
