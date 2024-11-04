@@ -8,108 +8,88 @@
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
-    <header class="px-5"> 
-        <div class="justify-content-start align-items-center">
-            <img src="../icons/cart.png" width="75">
+  <header class="d-flex flex-row pt-2 justify-content-around">
+      <!-- logo -->
+      <div class="banner">
+          <img src="../imagenes/logotipo_flob_con-letra.png" style="height: 100px;"> 
+      </div>
+      <!-- buscador -->
+      <div id="search-container">
+        <div class="nebula"></div>
+        <div class="starfield"></div>
+        <div class="cosmic-dust"></div>
+        <div class="cosmic-dust"></div>
+        <div class="cosmic-dust"></div>
+        <div class="stardust"></div>
+        <div class="cosmic-ring"></div>
+      
+        <div id="main">
+          <input
+            class="input-search"
+            name="text"
+            type="text"
+            placeholder="Busqueda . . ."
+          />
+          <div id="input-mask"></div>
+          <div id="cosmic-glow"></div>
+          <div class="wormhole-border"></div>
+          <div id="wormhole-icon">
+            <svg
+              stroke-linejoin="round"
+              stroke-linecap="round"
+              stroke-width="2"
+              stroke="#a9c7ff"
+              fill="none"
+              height="24"
+              width="24"
+              viewBox="0 0 24 24"
+            >
+              <circle r="10" cy="12" cx="12"></circle>
+              <path
+                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+              ></path>
+              <path d="M2 12h20"></path>
+            </svg>
           </div>
-        <div id="search-container">
-            <div class="nebula"></div>
-            <div class="starfield"></div>
-            <div class="cosmic-dust"></div>
-            <div class="cosmic-dust"></div>
-            <div class="cosmic-dust"></div>
-          
-            <div class="stardust"></div>
-          
-            <div class="cosmic-ring"></div>
-          
-            <div id="main">
-              <input
-                class="input"
-                name="text"
-                type="text"
-                placeholder="Busqueda . . ."
-              />
-              <div id="input-mask"></div>
-              <div id="cosmic-glow"></div>
-              <div class="wormhole-border"></div>
-              <div id="wormhole-icon">
-                <svg
-                  stroke-linejoin="round"
-                  stroke-linecap="round"
-                  stroke-width="2"
-                  stroke="#a9c7ff"
-                  fill="none"
-                  height="24"
-                  width="24"
-                  viewBox="0 0 24 24"
-                >
-                  <circle r="10" cy="12" cx="12"></circle>
-                  <path
-                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
-                  ></path>
-                  <path d="M2 12h20"></path>
-                </svg>
-              </div>
-              <div id="search-icon">
-                <svg
-                  stroke-linejoin="round"
-                  stroke-linecap="round"
-                  stroke-width="2"
-                  stroke="url(#cosmic-search)"
-                  fill="none"
-                  height="24"
-                  width="24"
-                  viewBox="0 0 24 24"
-                >
-                  <circle r="8" cy="11" cx="11"></circle>
-                  <line y2="16.65" x2="16.65" y1="21" x1="21"></line>
-                  <defs>
-                    <linearGradient gradientTransform="rotate(45)" id="cosmic-search">
-                      <stop stop-color="#a9c7ff" offset="0%"></stop>
-                      <stop stop-color="#6e8cff" offset="100%"></stop>
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </div>
-            </div>
+          <div id="search-icon">
+            <svg
+              stroke-linejoin="round"
+              stroke-linecap="round"
+              stroke-width="2"
+              stroke="url(#cosmic-search)"
+              fill="none"
+              height="24"
+              width="24"
+              viewBox="0 0 24 24"
+            >
+              <circle r="8" cy="11" cx="11"></circle>
+              <line y2="16.65" x2="16.65" y1="21" x1="21"></line>
+              <defs>
+                <linearGradient gradientTransform="rotate(45)" id="cosmic-search">
+                  <stop stop-color="#a9c7ff" offset="0%"></stop>
+                  <stop stop-color="#6e8cff" offset="100%"></stop>
+                </linearGradient>
+              </defs>
+            </svg>
           </div>
-          
-        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-            <div class="container-fluid"> 
-                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-center flex-grow-1">
-                            <li class="nav-item">
-                                <a class="nav-link mx-lg-2" aria-current="page" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="compras.html">Comprar</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="quienesomos.html">Quienes Somos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="contacto.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="cartanavideña.html">Carta Navideña</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>        
-    </header>
+        </div>
+      </div>
+      <!-- carrito -->
+      <div>
+          <img src="../imagenes/carritoDos.png" alt="Foto carrito" style="height: 61px; margin-left: 8px;">
+      </div>
+  </header> 
     <hr style="border: 2px solid rgb(158, 158, 158);">
     <main>
-
+      <nav>
+        <ul>
+            <li class="nav-item"><a class="nav-link mx-lg-2" aria-current="page" href="https://flob.vercel.app/">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link mx-lg-2" href="../pages/compras.html">Comprar</a></li>
+            <li class="nav-item"><a class="nav-link mx-lg-2" href="../pages/quienesomos.html">Quiénes somos</a></li>
+            <li class="nav-item"><a class="nav-link mx-lg-2" href="../pages/contacto.html">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link mx-lg-2" href="../pages/cartanavideña.html">Carta navideña</a></li>
+        </ul>
+      </nav>
         <section id="carta-quienessomos" >
             <h1 class="text-center">¿QUIENÉS SOMOS?</h1>
             <article style="margin: 20px;">

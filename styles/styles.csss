@@ -10,7 +10,7 @@ html {
 
 body {
   overflow-x: hidden;
-  background: rgb(13, 7, 27);
+  background: #05071b;
 }
 
 /* GRID SYSTEM */
@@ -507,4 +507,4 @@ h2 {
   z-index: 100;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.csss.map */
