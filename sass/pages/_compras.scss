@@ -1,0 +1,80 @@
+
+
+article{
+    justify-content: center;
+    background-color:transparent;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgb(38, 1, 46);
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(83, 21, 119, 0.486);
+}
+
+.container{
+    padding:  10px 0;
+}
+
+.wrapper1{
+    padding: 10px 10%;
+}
+
+.card_area{
+    display: grid;
+    margin-top: 50px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+
+.card{
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 5px 5px 15px rgb(49, 17, 49);
+    overflow: hidden;
+    border: none;
+
+    img{
+        height: 350px;
+        width: 100%;
+        display: block;
+        transition: transform 0.5s;
+    }
+
+}
+
+.overlay{
+    height: 0;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 0;
+    bottom: 0;
+    border-radius: 3px;
+    background: linear-gradient(transparent, rgba(31, 2, 22, 0.349) 60%);
+    padding: 0 50px;
+    text-align: center;
+    font-size: 15px;
+    transition: height 0.5s;
+    font-family: 'letras-grandes';
+    color: white;
+
+    h3{
+        margin-top: 55%;
+        margin-bottom: 5px;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+}
+
+.card:hover .overlay{
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    padding-top: 1em;
+    font-family: 'diseño mejor';
+}
