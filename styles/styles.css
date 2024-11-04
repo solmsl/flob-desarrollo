@@ -1,4 +1,18 @@
 @charset "UTF-8";
+/*offcanvas*/
+.offcanvas-half {
+  width: 50vw; /* Ocupa la mitad del ancho de la ventana */
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  overflow-y: auto; /* Permite desplazamiento si el contenido excede la altura */
+  position: fixed; /* Mantiene el offcanvas fijo */
+  top: 0; /* Inicia desde la parte superior */
+  right: 0; /* Inicia desde la parte derecha */
+  z-index: 1050; /* Asegúrate de que esté por encima de otros elementos */
+}
+.offcanvas {
+  background-color: rgb(128, 0, 128);
+  color: white;
+}
 /* BASE */
 html {
   box-sizing: border-box;

@@ -14,7 +14,7 @@
             <img src="./imagenes/logotipo_flob_con-letra.png" style="height: 100px;"> 
         </div>
         <!-- buscador -->
-        <div id="search-container">
+        <div id="search-container" class="d-none d-lg-block">
           <div class="nebula"></div>
           <div class="starfield"></div>
           <div class="cosmic-dust"></div>
@@ -75,8 +75,36 @@
           </div>
         </div>
         <!-- carrito -->
-        <div>
+        <div class="d-none d-lg-block">
             <img src="imagenes/carritoDos.png" alt="Foto carrito" style="height: 61px; margin-left: 8px;">
+        </div>
+        <!--mobile-->
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <img src="./imagenes/hamburguesa.png" class="navbar-toggler-icon" style="background-color: white;"></img>
+        </button>
+        <div class="offcanvas offcanvas-half" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body text-center" id="cuerpo-offcanva">
+            <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" aria-current="page" href="https://riab-project.vercel.app">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="./src/mascotas.html">Mascotas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="./src/requisitos.html">Requisitos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="./src/centros.html">Centros</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link mx-lg-2" href="./src/adoptar.html">¿Cómo Adoptar?</a>
+              </li>
+            </ul>
+          </div>
         </div>
     </header>  
     <main>
