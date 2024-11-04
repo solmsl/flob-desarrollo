@@ -448,44 +448,6 @@ footer {
   border-radius: 20px 20px 20px 20px;
 }
 
-/* compras */
-#card-catalogo {
-  margin: 90px;
-  background: linear-gradient(to right, rgb(111, 238, 255), rgb(103, 21, 150), rgb(255, 123, 255));
-  border: none;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 5px 5px 20px rgba(88, 74, 148, 0.4);
-}
-#card-catalogo div h4 {
-  color: white;
-  font-size: 35px;
-}
-
-.card {
-  margin-top: 15px;
-}
-.card img {
-  border-radius: 10px;
-}
-
-.subs {
-  color: white;
-  font-size: 25px;
-  margin: 0;
-  border-bottom: 2px solid white;
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  background-color: rgb(134, 10, 235);
-  border-radius: 10%;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-  width: 5%;
-}
-
 @font-face {
   font-family: "font";
   src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
