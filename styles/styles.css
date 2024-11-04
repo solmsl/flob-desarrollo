@@ -289,10 +289,11 @@ body {
   }
 }
 /* BASE */
-.btn {
+.boton {
   color: white;
   text-decoration: none;
   background: rgb(23, 6, 71);
+  border: 1px solid rgb(206, 205, 205);
 }
 
 .span-carrusel {
