@@ -369,6 +369,8 @@ nav ul a {
   color: white;
   font-size: 19px;
   font-family: "font";
+  padding-right: 6px;
+  padding-left: 0;
 }
 .nav-link:hover {
   color: rgb(113, 133, 197);

@@ -26,7 +26,8 @@ nav ul{
     color: white;
     font-size: 19px;
     font-family: 'font';
-
+    padding-right: 6px;
+    padding-left: 0;
     &:hover{
         color: $link;
     }
