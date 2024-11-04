@@ -1,0 +1,13 @@
+// BUTTONS
+@use '../base' as base;
+
+.btn{
+    color: white;
+    text-decoration: none;
+
+    &:hover{
+        color: white;
+        background:  rgb(23, 6, 71);
+        border: 1px solid rgb(189, 189, 189);
+    }
+}  

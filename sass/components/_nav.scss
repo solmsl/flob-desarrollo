@@ -1,0 +1,51 @@
+// NAV
+$link: rgb(113, 133, 197);
+@use "fonts";
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    margin: 2em 8em 3em;
+    list-style: none;
+    text-align:center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    li{
+        display: inline-block;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(80, 79, 79);
+    }
+}
+  
+.nav-link {
+    position: relative;
+    color: white;
+    font-size: 19px;
+    font-family: 'font';
+
+    &:hover{
+        color: $link;
+    }
+
+    &::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: $link;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    &:hover::before{
+        width: 100%;
+        visibility: visible;
+    }
+}

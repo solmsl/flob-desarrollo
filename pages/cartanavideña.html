@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>FLOB</title>
+</head>
+<body>
+    <header class="px-5"> 
+        <div class="justify-content-start align-items-center">
+            <img src="../icons/cart.png" alt="">
+          </div>
+        <div id="search-container">
+            <div class="nebula"></div>
+            <div class="starfield"></div>
+            <div class="cosmic-dust"></div>
+            <div class="cosmic-dust"></div>
+            <div class="cosmic-dust"></div>
+          
+            <div class="stardust"></div>
+          
+            <div class="cosmic-ring"></div>
+          
+            <div id="main">
+              <input
+                class="input"
+                name="text"
+                type="text"
+                placeholder="Busqueda . . ."
+              />
+              <div id="input-mask"></div>
+              <div id="cosmic-glow"></div>
+              <div class="wormhole-border"></div>
+              <div id="wormhole-icon">
+                <svg
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                  stroke-width="2"
+                  stroke="#a9c7ff"
+                  fill="none"
+                  height="24"
+                  width="24"
+                  viewBox="0 0 24 24"
+                >
+                  <circle r="10" cy="12" cx="12"></circle>
+                  <path
+                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                  ></path>
+                  <path d="M2 12h20"></path>
+                </svg>
+              </div>
+              <div id="search-icon">
+                <svg
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                  stroke-width="2"
+                  stroke="url(#cosmic-search)"
+                  fill="none"
+                  height="24"
+                  width="24"
+                  viewBox="0 0 24 24"
+                >
+                  <circle r="8" cy="11" cx="11"></circle>
+                  <line y2="16.65" x2="16.65" y1="21" x1="21"></line>
+                  <defs>
+                    <linearGradient gradientTransform="rotate(45)" id="cosmic-search">
+                      <stop stop-color="#a9c7ff" offset="0%"></stop>
+                      <stop stop-color="#6e8cff" offset="100%"></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+          
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container-fluid"> 
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="compras.html">Comprar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="quienesomos.html">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="cartanavideña.html">Carta Navideña</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>        
+    </header> <br> 
+    <main>
+        <div class="row">
+            <div class="col">
+                <h1 class=".bg-success">Carta Navideña</h1>
+            </div>
+        </div>
+
+        <div>
+            <a href="../cartaNavidena/paso-uno.html"><button class="btn">Crear mi carta navideña</button></a>
+        </div>
+           
+        <aside>
+            <p id="letrero"><b>"Por un Diseño Mejor"</b></p>
+        </aside>
+
+    </main>
+    
+    <footer class="my-4">
+        <p class="data">&copy; 2024 Flob. Todos los derechos reservados.</p>
+        <p class="data1">Terms of Service   •   Privacy Policy</p>
+    </footer>
+    <div class="text-center">
+        <img src="../imagenes/flob-logo.png" width="120px">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
