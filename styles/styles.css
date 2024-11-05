@@ -560,7 +560,7 @@ h1:hover {
   background: linear-gradient(rgb(98, 0, 255), rgb(106, 0, 177));
   -webkit-background-clip: text;
   color: transparent;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  text-shadow: 0 0 30px #fff;
   cursor: default;
   transition: all 400ms ease-out;
 }
