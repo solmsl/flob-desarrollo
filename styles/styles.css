@@ -557,7 +557,7 @@ h1:hover {
   text-align: center;
   padding-top: 1em;
   font-family: "diseño mejor";
-  color: rgb(209, 11, 209);
+  color: linear-gradient(to right, rgba(23, 107, 146, 0.37), rgba(98, 0, 163, 0.342), rgba(221, 138, 196, 0.267));
   cursor: default;
   transition: all 400ms ease-out;
 }
