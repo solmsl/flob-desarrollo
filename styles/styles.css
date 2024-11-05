@@ -557,7 +557,7 @@ h1:hover {
   text-align: center;
   padding-top: 1em;
   font-family: "diseño mejor";
-  background: linear-gradient(rgb(98, 0, 255), rgb(185, 81, 255));
+  background: linear-gradient(rgb(0, 26, 255), rgb(185, 81, 255));
   -webkit-background-clip: text;
   color: transparent;
   text-shadow: 0 0 30px rgba(255, 255, 255, 0.5490196078);
