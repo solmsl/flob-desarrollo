@@ -1,0 +1,13 @@
+.titulo-cartanavid{
+    text-align: center;
+    padding-top: 1em;
+    font-family: 'diseño mejor';
+    color: rgb(209, 11, 209);
+    // font-family: "font";
+    cursor: default;
+    transition: all 400ms ease-out;
+    &__:hover {
+        transform: translateY(-3%);
+        // color: rgb(209, 11, 209);
+      }
+}

@@ -553,4 +553,16 @@ h1:hover {
   color: white;
 }
 
+.titulo-cartanavid {
+  text-align: center;
+  padding-top: 1em;
+  font-family: "diseño mejor";
+  color: rgb(209, 11, 209);
+  cursor: default;
+  transition: all 400ms ease-out;
+}
+.titulo-cartanavid__:hover {
+  transform: translateY(-3%);
+}
+
 /*# sourceMappingURL=styles.css.map */
