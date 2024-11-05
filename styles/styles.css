@@ -557,27 +557,14 @@ h1:hover {
   text-align: center;
   padding-top: 1em;
   font-family: "diseño mejor";
-  display: inline-block;
-  color: #000;
-  background: #fff;
-  mix-blend-mode: multiply;
-  position: relative;
+  background: linear-gradient(yellow, red);
+  -webkit-background-clip: text;
+  color: transparent;
   cursor: default;
   transition: all 400ms ease-out;
 }
 .titulo-cartanavid__:hover {
   transform: translateY(-3%);
-}
-.titulo-cartanavid__:before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to right, red, yellow);
-  mix-blend-mode: screen;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
