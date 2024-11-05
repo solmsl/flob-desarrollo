@@ -337,8 +337,10 @@ aside {
 }
 aside #letrero {
   margin-top: 70px;
+  padding-top: 18px;
+  padding-bottom: 15px;
   font-family: "diseño mejor";
-  font-size: 60px;
+  font-size: 45px;
   color: white;
   text-align: center;
 }
@@ -400,7 +402,7 @@ footer {
 
 /* PAGES */
 /* index */
-#subtitulo {
+.subtitulo {
   background-color: rgb(240, 237, 237);
   text-align: center;
   font-size: 1.5em;
