@@ -555,8 +555,8 @@ h1:hover {
 
 .titulo-cartanavid {
   text-align: center;
-  padding-top: 1em;
-  font-family: "diseño mejor";
+  padding-top: 20px;
+  font-family: "font";
   background: linear-gradient(rgb(0, 26, 255), rgb(185, 81, 255));
   -webkit-background-clip: text;
   color: transparent;

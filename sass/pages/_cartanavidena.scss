@@ -1,15 +1,16 @@
+@use '../components/fonts';
+
 .titulo-cartanavid{
     text-align: center;
-    padding-top: 1em;
-    font-family: 'diseño mejor';
-    // color: rgb(209, 11, 209);
+    padding-top: 20px;
+    font-family: "font";
     background: linear-gradient(rgb(0, 26, 255),rgb(185, 81, 255));
     -webkit-background-clip: text;
     color: transparent;  
     text-shadow: 0 0 30px #ffffff8c;
-    // font-family: "font";
     cursor: default;
     transition: all 400ms ease-out;
+    
     &__:hover {
         transform: translateY(-3%);
         // color: rgb(209, 11, 209);
