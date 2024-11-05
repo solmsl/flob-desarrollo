@@ -3,11 +3,10 @@
     padding-top: 1em;
     font-family: 'diseño mejor';
     // color: rgb(209, 11, 209);
-    
+    background: linear-gradient(rgb(98, 0, 255),rgb(106, 0, 177));
+    -webkit-background-clip: text;
     color: transparent;  
     text-shadow: 0 0 3px #fff;
-    -webkit-background-clip: text;
-    background: linear-gradient(rgb(98, 0, 255),rgb(106, 0, 177));
     // font-family: "font";
     cursor: default;
     transition: all 400ms ease-out;
