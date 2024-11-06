@@ -556,9 +556,12 @@ h1:hover {
 }
 
 .titulo-cartanavid {
-  text-align: center;
-  padding-top: 20px;
+  margin-right: 0;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 90px;
   font-family: "font";
+  font-size: 45px;
   background: linear-gradient(rgb(0, 26, 255), rgb(185, 81, 255));
   -webkit-background-clip: text;
   color: transparent;
@@ -568,6 +571,80 @@ h1:hover {
 }
 .titulo-cartanavid__:hover {
   transform: translateY(-3%);
+}
+
+.sub-cartanavid {
+  color: #333;
+  font-size: 1rem;
+  text-align: left;
+  margin-top: -0.5rem;
+  padding-left: 130px;
+}
+
+.columna-titulo {
+  margin-right: 0;
+}
+
+.instrucciones {
+  margin-right: 0;
+  padding-left: 140px;
+}
+.instrucciones .paso {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.instrucciones .paso .numero {
+  background-color: #0056b3;
+  color: white;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.vista-previa {
+  margin-top: -70px;
+  margin-right: 0;
+}
+.vista-previa .imagen-previa {
+  width: 100%;
+  height: 220px;
+  background-color: #ccc;
+  margin-top: -40px;
+}
+
+@media (max-width: 576px) {
+  .row {
+    flex-direction: column !important;
+  }
+  .titulo-cartanavid {
+    font-size: 35px;
+    padding-left: 0;
+    text-align: center;
+  }
+  .sub-cartanavid {
+    padding-left: 0;
+    text-align: center;
+  }
+  .instrucciones {
+    padding-left: 0;
+    text-align: center;
+  }
+  .instrucciones .paso .numero {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .vista-previa .imagen-previa {
+    height: 160px;
+    text-align: center;
+    padding-left: 0;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
