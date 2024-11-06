@@ -1,13 +1,11 @@
 // BUTTONS
-@use '../base' as base;
+// @use '../base' as base;
 
-.btn{
+.boton{
     color: white;
     text-decoration: none;
-
-    &:hover{
-        color: white;
-        background:  rgb(23, 6, 71);
-        border: 1px solid rgb(189, 189, 189);
-    }
+    background:  rgb(23, 6, 71);
+    border: 1px solid rgb(206, 205, 205);
+    border-radius: 5px;
+    padding: 5px 12px;
 }  
