@@ -5,17 +5,12 @@
 @use "grid/mixins";
 
 /* COMPONENTS */
-@use "components/buscador";
 @use "components/buttons";
-@use "components/carrusel";
 @use "components/fonts";
-@use "components/formulario";
 @use "components/letrero";
 @use "components/nav";
 @use "components/footer";
 
 /* PAGES */
 @use "pages/inicio";
-@use "pages/compras";
-@use "pages/quienessomos";
 @use "pages/cartanavidena";
