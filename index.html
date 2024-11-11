@@ -5,25 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="shortcun icon" href="./imagenes/flob-logo.png">
+    <link rel="icon" href="./imagenes/flob-logo.png"> <!-- Fixed typo 'shortcun' to 'icon' -->
     <title>FLOB</title>
 </head>
 <body> 
     <header class="d-flex flex-row pt-2 justify-content-around">
         <!-- logo -->
         <div class="banner">
-            <img src="./imagenes/logotipo_flob_con-letra.png" style="height: 100px;"> 
+            <img src="./imagenes/logotipo_flob_con-letra.png" class="img-fluid" style="height: 100px;"> 
         </div>
     </header>  
     <main>
         <!-- barra de navegacion -->
         <nav>
-          <ul>
-              <li class="nav-item"><a class="nav-link mx-lg-2" aria-current="page" href="https://flob.vercel.app/">Inicio</a></li>
-              <li class="nav-item"><a class="nav-link mx-lg-2" href="../pages/compras.html">item</a></li>
-              <li class="nav-item"><a class="nav-link mx-lg-2" href="../pages/quienesomos.html">item</a></li>
-              <li class="nav-item"><a class="nav-link mx-lg-2" href="../pages/contacto.html">item</a></li>
-          </ul>
+            <ul class="nav justify-content-center flex-wrap">
+                <li class="nav-item"><a class="nav-link mx-lg-2" aria-current="page" href="https://flob.vercel.app/">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link mx-lg-2" href="../pages/compras.html">item</a></li>
+                <li class="nav-item"><a class="nav-link mx-lg-2" href="../pages/quienesomos.html">item</a></li>
+                <li class="nav-item"><a class="nav-link mx-lg-2" href="../pages/contacto.html">item</a></li>
+            </ul>
         </nav>
         <hr style="border: 2px solid rgb(158, 158, 158);">
         <!-- <div class="row">
@@ -60,38 +60,34 @@
         </div> -->
 
         <!-- Secciones -->
-        <div class="row justify-content-center contiene-cards-catalogo" style="margin-right: 0;">
-            <div class="col-3 mx-3 mb-2 container"> <!--style="width: 400px; height: 400px;"-->
-              <h1 class="titulo-cartanavid">Carta Navideña</h1>
-              <p class="sub-cartanavid">Creá tu carta en pocos pasos</p>
-              <div class="paso">
-                <span class="numero">1</span> Insertar instrucción
-              </div>
-              <div class="paso">
-                <span class="numero">2</span> Insertar instrucción
-              </div>
-              <div class="paso">
-                <span class="numero">3</span> Insertar instrucción
-              </div>
-            </div>
-            <div class="col-3 mx-3 mb-2 container text-center" style="width: 350px; height: 200px;">
-              <img src="./imagenes/digitalización_documentos.jpg" alt="dig-prueba">
-              <a href="./cartaNavidena/paso-uno.html"><button class="boton" style="margin-top: 6px;">Crear mi carta navideña</button></a>
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-3 mb-4 text-center">
+                    <h1 class="titulo-cartanavid">Carta Navideña</h1>
+                    <p class="sub-cartanavid">Creá tu carta en pocos pasos</p>
+                    <div class="paso">
+                        <span class="numero">1</span> Insertar instrucción
+                    </div>
+                    <div class="paso">
+                        <span class="numero">2</span> Insertar instrucción
+                    </div>
+                    <div class="paso">
+                        <span class="numero">3</span> Insertar instrucción
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-4 text-center">
+                    <img src="./imagenes/digitalización_documentos.jpg" alt="dig-prueba" class="img-fluid">
+                    <a href="./cartaNavidena/paso-uno.html"><button class="btn btn-primary mt-3">Crear mi carta navideña</button></a>
+                </div>
             </div>
         </div>
+
         <!-- letrero -->
-        <aside>
-          <p id="letrero"><b>"Por un Diseño Mejor"</b></p>
+        <aside class="text-center">
+            <p id="letrero"><b>"Por un Diseño Mejor"</b></p>
         </aside>
     </main>
-    <!-- <nav style="color: rgba(128, 128, 128, 0.267);">
-      <ul>
-          <li class="linea"><a href="#">Inicio</a></li>
-          <li class="linea"><a href="#">Comprar</a></li>
-          <li class="linea"><a href="#">Quiénes somos</a></li>
-          <li class="linea"><a href="#">Contacto</a></li>
-      </ul>
-    </nav> -->
+
     <footer class="text-center my-4" style="color: gray;">
         <p class="data">&copy; 2024 Flob. Todos los derechos reservados.</p>
         <p class="data1">Terms of Service   •   Privacy Policy</p>
@@ -100,3 +96,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
+
