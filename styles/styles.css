@@ -192,7 +192,7 @@ footer {
 }
 
 .sub-cartanavid {
-  color: #333;
+  color: #ffffff;
   font-size: 1rem;
   text-align: left;
   margin-top: -0.5rem;
@@ -211,7 +211,7 @@ footer {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
-  color: #333;
+  color: #ffffff;
 }
 .instrucciones .paso .numero {
   background-color: #0056b3;
