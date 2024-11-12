@@ -176,8 +176,6 @@ footer {
 .titulo-cartanavid {
   margin-right: 0;
   text-align: left;
-  padding-top: 30px;
-  padding-left: 90px;
   font-family: "font";
   font-size: 45px;
   background: linear-gradient(rgb(0, 26, 255), rgb(185, 81, 255));
@@ -194,9 +192,7 @@ footer {
 .sub-cartanavid {
   color: #ffffff;
   font-size: 1rem;
-  text-align: left;
   margin-top: -0.5rem;
-  padding-left: 130px;
 }
 
 .columna-titulo {
