@@ -72,3 +72,15 @@
     transition: all 400ms ease-out;
     font-family: 'prueba';
 }
+
+.btn-atras{
+    @extend .btn_previsualizar;
+}
+
+.btn_compartir{
+    @extend .btn_siguiente;
+}
+
+.btn_navidad{
+    @extend .btn_compartir;
+}
