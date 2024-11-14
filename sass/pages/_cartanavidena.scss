@@ -8,6 +8,7 @@ $color-paso: #0056b3;
     margin-right: 0;
     text-align: left;
     font-family: "font";
+    text-align: center;
     font-size: 40px;
     background: linear-gradient(rgb(0, 26, 255),rgb(185, 81, 255));
     -webkit-background-clip: text;
@@ -21,78 +22,17 @@ $color-paso: #0056b3;
         // color: rgb(209, 11, 209);
     }
 }
-.sub-cartanavid{
-    color: $color-texto;
-    font-size: 20px;
-    // text-align: left;
-    margin-top: 1em;
-    // padding-left: 130px;
-    font-family: 'prueba';
-}
-.columna-titulo{
-    margin-right: 0;
-}
-.instrucciones {
-    margin-right: 0;
-    padding-left: 140px;
-    .paso {
-      display: flex;
-      align-items: center;
-      margin-bottom: 1rem;
-      color: $color-texto;
 
-      
-    }
-}
-.vista-previa {
-    margin-top: -70px;
-    margin-right: 0;
-    .imagen-previa {
-      width: 100%;
-      height: 220px;
-      background-color: $bg-imagen;
-        margin-top: -40px;
-    }
-}
-
-@media (max-width: 576px) {
-    .row {
-        flex-direction: column !important;
-    }
-    .titulo-cartanavid {
-        font-size: 35px;
-        padding-left: 0;
+.links{
+    margin-top: 20px;
+    h3{
+        color: white;
+        padding: 2px;
         text-align: center;
     }
-
-    .sub-cartanavid {
-        color: $color-texto;
-        padding-left: 0;
-        text-align: center;
-    }
-
-    .instrucciones {
-        padding-left: 0;
-        text-align: center;
-        .paso .numero {
-            width: 1.8rem;
-            height: 1.8rem;
-        }
-    }
-
-    .vista-previa .imagen-previa {
-        height: 160px;
-        text-align: center;
-        padding-left: 0;
-    }
-
-}
-
-.numero{
-    color: white;
 }
 
 .img-fluid{
-    text-align: center;
-    justify-content: center;
+    float: left;
+    margin-left: 30px;
 }
