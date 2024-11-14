@@ -9,17 +9,25 @@
     <title>Comparte</title>
 </head>
 <body>
-    <h2>Felicidades, creaste tu carta navideña!</h2>
-    <h5>Gracias por utilizar el servicio de Flob ^^</h5>
-    <br>
-    <button id="downloadButton" class="btn btn-success">Descargar mi carta navideña</button>
-    <br><br>
-    <div>
-        <p>Compartir mi carta:</p>
-        <button id="shareButton" class="btn btn-primary">Compartir por WhatsApp</button>
+    <div class="text-center">
+        <h2>Felicidades, creaste tu carta navideña!</h2>
+        <h5>Gracias por utilizar el servicio de Flob ^^</h5>
     </div>
+
     <br>
-    <a href="./paso-dos.html">atrás</a>
+
+    <main>
+        <img src="../imagenes/digitalizaciòn_impresión.jpg" alt="" class="img-fluid">
+        <button id="downloadButton" class="btn btn-success">Descargar mi carta navideña</button>
+        <br><br>
+        <div>
+            <p>Compartir mi carta:</p>
+            <button id="shareButton" class="btn btn-primary">Compartir por WhatsApp</button>
+        </div>
+        <br>
+        <a href="./paso-dos.html">atrás</a>
+    </main>
+
     <script>
         document.getElementById('downloadButton').addEventListener('click', function() {
             const cartaNavidena = localStorage.getItem('cartaNavidena');
@@ -81,7 +89,7 @@
         });
     </script>
 
-    <br><hr class="linea-divisora" style="color: rgb(176, 83, 238);">
+    <br><br><br><br><br><br><hr class="linea-divisora" style="color: rgb(176, 83, 238);">
 
     <footer class="text-center my-4">
         <p class="data">&copy; 2024 Flob. Todos los derechos reservados.</p>
