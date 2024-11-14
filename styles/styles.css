@@ -14,6 +14,18 @@ body {
 }
 
 /* COMPONENTS */
+@font-face {
+  font-family: "font";
+  src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "diseño mejor";
+  src: url("/fonts/Yellowtail/Yellowtail-Regular.ttf");
+}
+@font-face {
+  font-family: "prueba";
+  src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
+}
 .boton {
   justify-content: center;
   text-align: center;
@@ -38,29 +50,46 @@ body {
   transform: translateY(-3%);
 }
 
-.btn_siguiente {
+.btn_siguiente, .botones_pasodos .btn_atras {
   background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
   color: white;
   font-size: 20px;
-  padding: 10px 18px;
-  border-radius: 20px;
+  padding: 10px 100px;
+  border-radius: 10px;
   border: none;
   text-decoration: none;
   transition: all 400ms ease-out;
+  margin: 4px;
+  font-family: "prueba";
 }
 
-@font-face {
-  font-family: "font";
-  src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
+.botones_pasodos {
+  text-align: center;
 }
-@font-face {
-  font-family: "diseño mejor";
-  src: url("/fonts/Yellowtail/Yellowtail-Regular.ttf");
-}
-@font-face {
+.botones_pasodos .btn_siguiente, .botones_pasodos .btn_atras {
+  background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
+  color: white;
+  font-size: 20px;
+  padding: 10px 100px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  transition: all 400ms ease-out;
+  margin: 4px;
   font-family: "prueba";
-  src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
 }
+.btn_previsualizar {
+  background: rgb(98, 65, 177);
+  color: white;
+  font-size: 20px;
+  padding: 10px 100px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  transition: all 400ms ease-out;
+  font-family: "prueba";
+}
+
 aside {
   text-shadow: 0 0 30px rgba(160, 107, 221, 0.5490196078);
 }
@@ -89,6 +118,11 @@ footer {
   color: rgb(255, 255, 255);
   font-size: 16px;
   text-align: center;
+}
+
+#previewModal {
+  background: transparent;
+  backdrop-filter: blur(4px);
 }
 
 /* PAGES */
@@ -177,7 +211,7 @@ footer {
   padding-right: 40px;
 }
 
-h1, h3 {
+h1, h3, label {
   color: white;
 }
 
@@ -217,6 +251,97 @@ h1, h3 {
   padding: 17px 10px;
   text-align: center;
   display: none; /* Oculto por defecto */
+}
+
+.progress-bar .step .bullet {
+  height: 25px;
+  width: 25px;
+  border: 2px solid #000;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.progress-bar .step .bullet.active {
+  border-color: #5ed6b3;
+  background: #5ed6b3;
+}
+
+.progress-bar .step .bullet span {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.progress-bar .step .bullet.active span {
+  display: none;
+}
+
+.progress-bar .step .bullet:after {
+  position: absolute;
+  content: "";
+  bottom: 11px;
+  right: -51px;
+  height: 3px;
+  width: 44px;
+  background: #262626;
+}
+
+.progress-bar .step .bullet.active:after {
+  background: #5ed6b3;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 0.3s linear forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+.progress-bar .step:last-child .bullet:after {
+  display: none;
+}
+
+.progress-bar .step p.active {
+  color: #5ed6b3;
+  transition: 0.2s linear;
+}
+
+.container .form-outer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container .form-outer form {
+  display: flex;
+  width: 400%;
+}
+
+.form-outer form .page {
+  width: 25%;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+form .page .btns button {
+  margin-top: -20px !important;
+}
+
+form .page .btns button.prev {
+  margin-right: 3px;
+  font-size: 17px;
+}
+
+form .page .btns button.next {
+  margin-left: 3px;
+}
+
+.row {
+  margin-left: 10em;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -26,7 +26,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 mb-3">
+            <div class="col-12 col-md-10">
                 <div class="mb-3">
                     <label for="titleInput">Título:</label>
                     <input type="text" id="titleInput" class="form-control" placeholder="Ingresa el título">
@@ -85,14 +85,21 @@
                         <input type="radio" id="showPhrase" name="displayOption" value="phrase">
                         <label for="showPhrase">Solo Frase</label>
                     </div>
-                </div>                
-                <button id="previewButton" class="btn btn-primary">Previsualizar</button>
+                </div>      
             </div>
+        </div>
+
+        <div class="text-center">
+           <button id="previewButton" class="btn_previsualizar">Previsualizar</button> 
         </div>
     </div>    
 
-    <a href="./paso-uno.html" class="btn btn-primary ">Atrás</a>
-    <a href="./paso-tres.html" class="btn btn-success ">Siguiente</a>
+    <br><br>
+
+    <div class="botones_pasodos">
+        <a href="./paso-uno.html" class="btn_atras">Atrás</a>
+        <a href="./paso-tres.html" class="btn_siguiente">Siguiente</a>
+    </div>
 
     <!-- Modal -->
     <div class="modal fade" id="previewModal" tabindex="-1" aria-labelledby="previewModalLabel" aria-hidden="true">
@@ -225,6 +232,14 @@
             };
         }
     </script>
+
+    <br><hr class="linea-divisora" style="color: rgb(176, 83, 238);">
+
+    <footer class="text-center my-4">
+        <p class="data">&copy; 2024 Flob. Todos los derechos reservados.</p>
+        <p class="data1">Terms of Service   •   Privacy Policy</p>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
