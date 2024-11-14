@@ -5,13 +5,10 @@ $bg-imagen: #ccc;
 $color-paso: #0056b3;
 
 .titulo-cartanavid{
-    // text-align: center;
     margin-right: 0;
     text-align: left;
-    // padding-top: 30px;
-    // padding-left: 90px;
     font-family: "font";
-    font-size: 45px;
+    font-size: 40px;
     background: linear-gradient(rgb(0, 26, 255),rgb(185, 81, 255));
     -webkit-background-clip: text;
     color: transparent;  
@@ -26,10 +23,11 @@ $color-paso: #0056b3;
 }
 .sub-cartanavid{
     color: $color-texto;
-    font-size: 1rem;
+    font-size: 20px;
     // text-align: left;
-    margin-top: -0.5rem;
+    margin-top: 1em;
     // padding-left: 130px;
+    font-family: 'prueba';
 }
 .columna-titulo{
     margin-right: 0;
@@ -99,7 +97,4 @@ $color-paso: #0056b3;
         padding-left: 0;
     }
 
-    // .boton {
-    //     width: 100%;
-    // }
 }

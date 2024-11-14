@@ -13,30 +13,28 @@ body {
   background: #05071b;
 }
 
-/* GRID SYSTEM */
-/**
-* BREAKPOINT MIXINGS
-*/
-/**
-* SMALL (XS)
-*/
-/**
-* SMALL (SM)
-*/
-/**
-* MEDIUM (MD)
-*/
-/**
-* LARGE (LG)
-*/
 /* COMPONENTS */
 .boton {
+  justify-content: center;
+  text-align: center;
+}
+
+.boton_carta {
+  background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
   color: white;
+  font-size: 20px;
+  padding: 15px 18px;
+  border-radius: 20px;
+  border: none;
   text-decoration: none;
-  background: rgb(23, 6, 71);
-  border: 1px solid rgb(206, 205, 205);
-  border-radius: 5px;
-  padding: 5px 12px;
+  transition: all 400ms ease-out;
+}
+.boton_carta a {
+  text-decoration: none;
+  color: white;
+}
+.boton_carta:hover {
+  transform: translateY(-3%);
 }
 
 @font-face {
@@ -52,10 +50,10 @@ body {
   src: url("/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf");
 }
 aside {
-  background: linear-gradient(to right, rgba(23, 107, 146, 0.37), rgba(98, 0, 163, 0.342), rgba(221, 138, 196, 0.267));
+  text-shadow: 0 0 30px rgba(160, 107, 221, 0.5490196078);
 }
 aside #letrero {
-  margin-top: 70px;
+  margin-top: 50px;
   padding-top: 18px;
   padding-bottom: 15px;
   font-family: "diseño mejor";
@@ -64,53 +62,15 @@ aside #letrero {
   text-align: center;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav ul {
-  margin: 1em 6em 1em;
-  list-style: none;
-  text-align: center;
-  font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-nav ul li {
-  display: inline-block;
-}
-nav ul a {
-  text-decoration: none;
-  color: rgb(80, 79, 79);
-}
-
-.nav-link {
-  position: relative;
+a {
   color: white;
-  font-size: 19px;
-  font-family: "font";
-  padding-right: 10px;
-  padding-left: 0;
+  text-decoration: none;
+  padding: 20px;
+  font-family: "prueba";
+  position: relative;
 }
-.nav-link:hover {
-  color: rgb(113, 133, 197);
-}
-.nav-link::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 0;
-  height: 2px;
-  background-color: rgb(113, 133, 197);
-  visibility: hidden;
-  transition: 0.3s ease-in-out;
-}
-.nav-link:hover::before {
-  width: 100%;
-  visibility: visible;
+a:hover {
+  color: rgb(107, 73, 161);
 }
 
 footer {
@@ -177,7 +137,7 @@ footer {
   margin-right: 0;
   text-align: left;
   font-family: "font";
-  font-size: 45px;
+  font-size: 40px;
   background: linear-gradient(rgb(0, 26, 255), rgb(185, 81, 255));
   -webkit-background-clip: text;
   color: transparent;
@@ -191,8 +151,9 @@ footer {
 
 .sub-cartanavid {
   color: #ffffff;
-  font-size: 1rem;
-  margin-top: -0.5rem;
+  font-size: 20px;
+  margin-top: 1em;
+  font-family: "prueba";
 }
 
 .columna-titulo {
