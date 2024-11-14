@@ -50,7 +50,7 @@ body {
   transform: translateY(-3%);
 }
 
-.btn_siguiente, .btn_compartir, .botones_pasodos .btn_atras {
+.btn_siguiente, .btn_compartir, .btn_navidad, .botones_pasodos .btn_atras {
   background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
   color: white;
   font-size: 20px;
@@ -66,7 +66,7 @@ body {
 .botones_pasodos {
   text-align: center;
 }
-.botones_pasodos .btn_siguiente, .botones_pasodos .btn_compartir, .botones_pasodos .btn_atras {
+.botones_pasodos .btn_siguiente, .botones_pasodos .btn_compartir, .botones_pasodos .btn_navidad, .botones_pasodos .btn_atras {
   background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
   color: white;
   font-size: 20px;
@@ -94,7 +94,7 @@ aside {
   text-shadow: 0 0 30px rgba(160, 107, 221, 0.5490196078);
 }
 aside #letrero {
-  margin-top: 50px;
+  margin-top: 10px;
   padding-top: 18px;
   padding-bottom: 15px;
   font-family: "diseño mejor";
@@ -211,7 +211,16 @@ footer {
   padding-right: 40px;
 }
 
-h1, h3, label, h2, h5, p {
+@media (max-width: 767px) { /* Estilos para dispositivos móviles */
+  .inicio {
+    padding: 20px; /* Agrega un poco de espacio al contenedor */
+  }
+  .links p {
+    text-align: center;
+    font-size: 16px; /* Ajusta el tamaño de la fuente si es necesario */
+  }
+}
+h1, h3, label, p {
   color: white;
 }
 
@@ -340,8 +349,18 @@ form .page .btns button.next {
   margin-left: 3px;
 }
 
-.row {
+#personalizar {
   margin-left: 10em;
+}
+
+.pasotres {
+  margin-top: 30px;
+}
+
+#comparte {
+  color: white;
+  text-align: center;
+  font-family: "diseño mejor";
 }
 
 /*# sourceMappingURL=styles.css.map */
