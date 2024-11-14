@@ -169,12 +169,12 @@ footer {
   color: white;
   padding: 3px;
   margin: 3px;
-  text-align: center;
 }
 
 .img-fluid {
   float: left;
   margin-left: 30px;
+  padding-right: 40px;
 }
 
 h1, h3 {
