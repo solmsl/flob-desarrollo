@@ -36,18 +36,18 @@
   user-select: none;
 } */
 
-.container .progress-bar .step {
+/* .container .progress-bar .step {
   text-align: center;
   width: 100%;
   position: relative;
-}
-
+} */
+/* 
 .container .progress-bar .step p {
   font-weight: 500;
   font-size: 18px;
   color: #000;
   margin-bottom: 8px;
-}
+} */
 
 .progress-bar .step .bullet {
   height: 25px;
