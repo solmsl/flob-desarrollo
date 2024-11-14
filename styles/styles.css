@@ -74,7 +74,7 @@ a:hover {
 }
 
 footer {
-  color: rgb(209, 203, 203);
+  color: rgb(255, 255, 255);
   font-size: 16px;
   text-align: center;
 }
@@ -170,18 +170,6 @@ footer {
   margin-bottom: 1rem;
   color: #ffffff;
 }
-.instrucciones .paso .numero {
-  background-color: #0056b3;
-  color: white;
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 0.5rem;
-  font-weight: bold;
-}
 
 .vista-previa {
   margin-top: -70px;
@@ -221,6 +209,14 @@ footer {
     text-align: center;
     padding-left: 0;
   }
+}
+.numero {
+  color: white;
+}
+
+.img-fluid {
+  text-align: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
