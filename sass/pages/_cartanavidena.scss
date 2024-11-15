@@ -24,7 +24,6 @@ $color-paso: #0056b3;
 }
 
 .links{
-    margin-top: 20px;
     p{
         color: white;
         padding: 3px;
@@ -34,8 +33,7 @@ $color-paso: #0056b3;
 
 .img-fluid{
     float: left;
-    margin-left: 30px;
-    padding-right: 40px;
+    padding: 20px;
 }
 
 @media (max-width: 767px) { /* Estilos para dispositivos móviles */

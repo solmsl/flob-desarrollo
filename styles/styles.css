@@ -91,7 +91,7 @@ body {
 }
 
 aside {
-  text-shadow: 0 0 30px rgba(160, 107, 221, 0.5490196078);
+  text-shadow: 0 0 30px rgba(107, 73, 228, 0.8549019608);
 }
 aside #letrero {
   margin-top: 10px;
@@ -105,7 +105,8 @@ aside #letrero {
 
 @media (max-width: 667px) {
   #letrero {
-    font-size: 1.2rem;
+    font-size: 10px;
+    text-align: center;
   }
 }
 a {
@@ -128,6 +129,16 @@ footer {
 #previewModal {
   background: transparent;
   backdrop-filter: blur(4px);
+}
+
+.modal-header {
+  color: white;
+  font-family: "prueba";
+  background-color: purple;
+}
+
+.modal-body, .modal-footer {
+  background-color: purple;
 }
 
 /* PAGES */
@@ -201,9 +212,6 @@ footer {
   transform: translateY(-3%);
 }
 
-.links {
-  margin-top: 20px;
-}
 .links p {
   color: white;
   padding: 3px;
@@ -212,8 +220,7 @@ footer {
 
 .img-fluid {
   float: left;
-  margin-left: 30px;
-  padding-right: 40px;
+  padding: 20px;
 }
 
 @media (max-width: 767px) { /* Estilos para dispositivos móviles */
@@ -355,7 +362,8 @@ form .page .btns button.next {
 }
 
 #personalizar {
-  margin-left: 10em;
+  text-align: center;
+  justify-content: center;
 }
 
 .pasotres {

@@ -2,7 +2,7 @@
 @use "fonts";
 
 aside{
-    text-shadow: 0 0 30px #a06bdd8c;
+    text-shadow: 0 0 30px #6b49e4da;
 
     #letrero{
         margin-top: 10px;
@@ -17,6 +17,7 @@ aside{
 
 @media (max-width: 667px) { 
     #letrero {
-        font-size: 1.2rem; 
+        font-size: 10px; 
+        text-align: center;
     }
 }
