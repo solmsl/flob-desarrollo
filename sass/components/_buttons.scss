@@ -1,11 +1,86 @@
-// BUTTONS
-// @use '../base' as base;
+@use "./fonts";
 
 .boton{
+    justify-content: center;
+    text-align: center;
+}
+
+.boton_carta{
+    margin-top: 3em;
+    background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
     color: white;
+    font-size: 20px;
+    padding: 15px 18px;
+    border-radius: 20px;
+    border: none;
     text-decoration: none;
-    background:  rgb(23, 6, 71);
-    border: 1px solid rgb(206, 205, 205);
-    border-radius: 5px;
-    padding: 5px 12px;
-}  
+    transition: all 400ms ease-out;
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    &:hover{
+        transform: translateY(-3%);
+    }
+}
+
+.btn_siguiente{
+    background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
+    color: white;
+    font-size: 20px;
+    padding: 10px 100px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    transition: all 400ms ease-out;
+    margin: 4px;
+    font-family: 'prueba';
+}
+
+.botones_pasodos{
+
+    text-align: center;
+
+    .btn_siguiente{
+        background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
+        color: white;
+        font-size: 20px;
+        padding: 10px 100px;
+        border-radius: 10px;
+        border: none;
+        text-decoration: none;
+        transition: all 400ms ease-out;
+        margin: 4px;
+        font-family: 'prueba';
+    }   
+
+    .btn_atras{
+        @extend .btn_siguiente;
+    }
+}
+
+.btn_previsualizar{
+    background: rgb(98, 65, 177);
+    color: white;
+    font-size: 20px;
+    padding: 10px 100px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    transition: all 400ms ease-out;
+    font-family: 'prueba';
+}
+
+.btn-atras{
+    @extend .btn_previsualizar;
+}
+
+.btn_compartir{
+    @extend .btn_siguiente;
+}
+
+.btn_navidad{
+    @extend .btn_compartir;
+}

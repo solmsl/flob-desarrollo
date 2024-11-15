@@ -8,21 +8,13 @@
     <link rel="icon" href="./imagenes/flob-logo.png">
     <title>FLOB</title>
 </head>
-<body style="background-color: #1d3557; color: white;"> <!-- Fondo azul oscuro y texto blanco para toda la página -->
-    <!-- <header class="d-flex flex-row pt-2 justify-content-between">
-        <div class="banner">
-            <img src="./imagenes/logotipo_flob_con-letra.png" class="img-fluid" style="height: 100px;"> 
-        </div>
-    </header>   -->
+<body>
 
-    <main>
-        <!-- barra de navegacion -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary"> <!-- Fondo azul oscuro para la barra -->
+    <header>
+        <nav class="navbar navbar-expand-lg"> 
             <div class="container-fluid">
-                <!-- Logo que también sirve de botón para el menú en móvil -->
-                <a class="navbar-brand" href="https://flob.vercel.app/">
-                    <img src="./imagenes/logotipo_flob_con-letra.png" alt="Logo" style="height: 50px;">
-                </a>
+
+                <img src="./imagenes/logotipo_flob_con-letra.png" alt="Logo" height="70">
 
                 <!-- Botón hamburguesa que aparece en pantallas pequeñas -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,81 +23,44 @@
 
                 <!-- Enlaces de navegación que se muestran en pantallas grandes y al abrir el menú hamburguesa -->
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link mx-lg-2" aria-current="page" href="https://flob.vercel.app/">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link mx-lg-2" href="../pages/compras.html">item</a></li>
-                        <li class="nav-item"><a class="nav-link mx-lg-2" href="../pages/quienesomos.html">item</a></li>
-                        <li class="nav-item"><a class="nav-link mx-lg-2" href="../pages/contacto.html">item</a></li>
-                    </ul>
+                    <div class="navbar-nav ms-auto" id="links">
+                        <a href="">Inicio</a> 
+                        <a href="">Item</a>
+                        <a href="">Item</a>
+                        <a href="">Item</a>
+                    </div>
                 </div>
             </div>
         </nav>
+    </header>
 
-        <hr style="border: 2px solid rgb(158, 158, 158);">
+    <hr class="linea-divisora" style="color: rgb(176, 83, 238);">
+
+    <main>
         
-        <!-- <div class="row">
-          NO BORRAR MOMENTANEAMENTE
-          <div class="col-md-8 offset-md-2 columna-titulo">
-              <h1 class="titulo-cartanavid">Carta Navideña</h1>
-              <p class="sub-cartanavid">Creá tu carta en pocos pasos</p>
-          </div>
-      </div>
-      <div class="row justify-content-center align-items-start mt-4 flex-column flex-md-row"> -->
-        <!-- Instrucciones -->
-        <!-- <div class="col-md-4 instrucciones">
-          <div class="paso">
-            <span class="numero">1</span> Insertar instrucción
-          </div>
-          <div class="paso">
-            <span class="numero">2</span> Insertar instrucción
-          </div>
-          <div class="paso">
-            <span class="numero">3</span> Insertar instrucción
-          </div>
-        </div> -->
-    
-        <!--imagen -->
-        <!-- <div class="col-md-4 vista-previa text-center">
-          <div class="imagen-previa mb-4">[Imagen]</div>
-          <a href="../cartaNavidena/paso-uno.html"><button class="boton">Crear mi carta navideña</button></a>
-        </div>
-      </div> -->
-
-        <!-- Subtitulo -->
-        <!-- <div class="py-4 subtitulo" style="margin:3em 0;">
-            <h4>¿YA VISTE NUESTRO CATÁLOGO? ENTÉRATE DE LAS NOVEDADES A PRECIOS EXCLUSIVOS!!</h4>
-        </div> -->
-
-        <!-- Secciones -->
-        <div class="container py-4">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-3 mb-4 text-center">
-                    <h1 class="titulo-cartanavid">Carta Navideña</h1>
-                    <p class="sub-cartanavid">Creá tu carta en pocos pasos</p>
-                    <div class="paso">
-                        <span class="numero">1</span> Insertar instrucción
-                    </div>
-                    <div class="paso">
-                        <span class="numero">2</span> Insertar instrucción
-                    </div>
-                    <div class="paso">
-                        <span class="numero">3</span> Insertar instrucción
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 mb-4 text-center">
-                    <img src="./imagenes/digitalización_documentos.jpg" alt="dig-prueba" class="img-fluid">
-                    <a href="./cartaNavidena/paso-uno.html"><button class="btn btn-primary mt-3">Crear mi carta navideña</button></a>
-                </div>
+        <h1 class="titulo-cartanavid">CARTA NAVIDEÑA</h1> <br>
+       
+        <article class="inicio">
+            <img src="./imagenes/digitalización_documentos.jpg" class="img-fluid" width="500px"> 
+            <div class="links"> <br>
+                <p>1. Elije tu plantilla de fondo para tu Carta Navideña</p> 
+                <p>2. Personaliza tu Carta Navideña, ya sea el texto, color de texto, tamaño y tipografía</p> 
+                <p>3. Descarga tu Carta Navideña y compartela entre tus amigos</p> 
             </div>
-        </div>
+        </article>
 
-        <!-- letrero -->
-        <aside class="text-center">
-            <p id="letrero"><b>"Por un Diseño Mejor"</b></p>
-        </aside>
+        <div class="boton">
+            <a href="./cartaNavidena/paso-uno.html"><button class="boton_carta">Crear mi carta navideña</button></a>
+        </div> <br><br>
     </main>
 
-    <footer class="text-center my-4" style="color: gray;">
+    <aside class="text-center">
+        <p id="letrero"><b>"Por un Diseño Mejor"</b></p>
+    </aside>
+
+    <hr class="linea-divisora" style="color: rgb(176, 83, 238);">
+
+    <footer class="text-center my-4">
         <p class="data">&copy; 2024 Flob. Todos los derechos reservados.</p>
         <p class="data1">Terms of Service   •   Privacy Policy</p>
     </footer>
