@@ -229,10 +229,6 @@ footer {
     height: 2px;
     background: var(--secondary);
   }
-  .contiene-text-step ul li {
-    margin-right: 60px;
-    position: relative;
-  }
 }
 .contiene-text-step {
   margin-bottom: 0px;
@@ -250,7 +246,6 @@ footer {
 }
 
 .contiene-text-step ul li {
-  margin-right: 30px;
   position: relative;
 }
 
