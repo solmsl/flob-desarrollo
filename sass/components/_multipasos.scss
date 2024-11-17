@@ -64,3 +64,18 @@
 .header-step ul li.active p{
 	background: var(--primary);
 }
+
+@media (max-width: 767px) { /* Estilos para dispositivos móviles */
+    .header-step ul li{
+        margin-right: 50px;
+        position: relative;
+    }
+    .header-step ul li:before{
+        top: 42%;
+        transform: translateY(-50%);
+        left: 42px;
+        width: 100%;
+        height: 2px;
+        background: var(--secondary);
+    }
+}
