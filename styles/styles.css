@@ -161,7 +161,7 @@ footer {
   display: flex;
   list-style: none;
   outline: none;
-  padding-left: 1rem;
+  padding-left: 0;
 }
 
 .header-step ul li {
