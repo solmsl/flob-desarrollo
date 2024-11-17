@@ -274,7 +274,8 @@ footer {
     margin-right: 40px;
   }
   .contiene-text-step ul {
-    margin-right: 50px;
+    margin-right: 0;
+    margin-left: 50px;
   }
   .texto_3_step {
     margin-left: 22px;
