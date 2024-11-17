@@ -187,6 +187,7 @@ footer {
   width: 160%;
   height: 2px;
   background: var(--secondary);
+  color: var(--secondary);
 }
 
 .header-step ul li:last-child:before {
@@ -202,7 +203,7 @@ footer {
   width: 50px;
   height: 50px;
   background: var(--secondary);
-  color: var(--white);
+  color: var(--secondary);
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
@@ -211,10 +212,12 @@ footer {
 
 .header-step ul li.active:before {
   background: var(--primary);
+  color: var(--white);
 }
 
 .header-step ul li.active p {
   background: var(--primary);
+  color: var(--white);
 }
 
 .contiene-text-step {
@@ -244,17 +247,16 @@ footer {
 }
 
 .contiene-text-step ul li p {
-  background: var(--secondary);
-  color: var(--white);
+  color: var(--secondary);
   text-align: center;
 }
 
 .contiene-text-step ul li.active-text:before {
-  background: var(--primary);
+  color: var(--primary);
 }
 
 .contiene-text-step ul li.active-text p {
-  background: var(--primary);
+  color: var(--primary);
 }
 
 @media (max-width: 767px) { /* Estilos para dispositivos móviles */
@@ -268,7 +270,6 @@ footer {
     left: 52px;
     width: 160%;
     height: 2px;
-    background: var(--secondary);
   }
   .contiene-text-step ul {
     margin-right: 0;
