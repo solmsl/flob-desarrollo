@@ -223,7 +223,7 @@ footer {
     position: relative;
   }
   .header-step ul li:before {
-    top: 42%;
+    top: 50%;
     transform: translateY(-50%);
     left: 52px;
     width: 160%;
