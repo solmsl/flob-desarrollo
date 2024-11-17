@@ -108,12 +108,13 @@ aside #letrero {
     text-shadow: 0 0 30px rgba(107, 73, 228, 0.8549019608);
   }
   aside #letrero {
-    padding-top: 8px;
     padding-bottom: 5px;
     font-family: "diseño mejor";
     font-size: 35px;
     color: white;
     text-align: center;
+    margin-top: 0;
+    padding-top: 0;
   }
 }
 a {
@@ -231,10 +232,10 @@ footer {
   }
 }
 .contiene-text-step {
+  padding: 0;
   margin-bottom: 0px;
   display: flex;
   justify-content: center;
-  padding: 0px 10px;
 }
 
 .contiene-text-step ul {
@@ -244,6 +245,7 @@ footer {
   padding-left: 0;
   margin-bottom: 0;
   margin-top: 0;
+  margin-right: 10px;
 }
 
 .contiene-text-step ul li {
@@ -261,16 +263,16 @@ footer {
   text-align: center;
 }
 
-.contiene-text-step ul li div {
-  padding: 0px 5px 10px;
-}
-
 .contiene-text-step ul li.active-text:before {
   background: var(--primary);
 }
 
 .contiene-text-step ul li.active-text p {
   background: var(--primary);
+}
+
+.texto_2_step {
+  margin-right: 5px;
 }
 
 h1, h3, label, p {
