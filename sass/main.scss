@@ -8,8 +8,5 @@
 @use "components/nav";
 @use "components/footer";
 @use "./components/modal";
-
-/* PAGES */
-@use "pages/inicio";
-@use "pages/cartanavidena";
+@use "./components/multipasos";
 @use "./pages/pasos";
