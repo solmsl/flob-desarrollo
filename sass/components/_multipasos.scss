@@ -136,6 +136,9 @@
         height: 2px;
         background: var(--secondary);
     }
+    .contiene-text-step ul li:last-child{
+        margin-right: 20px;
+    }
     .contiene-text-step ul{
         margin-right: 0;
         margin-left: 20px;
@@ -143,9 +146,6 @@
     .contiene-text-step ul li{
         margin-right: 24px;
     }
-    // .contiene-text-step ul li:last-child{
-    //     margin-right: 20px;
-    // }
     .texto_3_step{
         margin-left: 14px;
     }
