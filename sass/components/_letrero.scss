@@ -16,8 +16,17 @@ aside{
 }
 
 @media (max-width: 667px) { 
-    #letrero {
-        font-size: 10px; 
-        text-align: center;
+    aside{
+        text-shadow: 0 0 30px #6b49e4da;
+    
+        #letrero{
+            margin-top: 10px;
+            padding-top: 18px;
+            padding-bottom: 15px;
+            font-family: 'diseño mejor';
+            font-size: 35px;
+            color: white;;
+            text-align: center;
+        }
     }
 }

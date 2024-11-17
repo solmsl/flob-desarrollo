@@ -104,8 +104,16 @@ aside #letrero {
 }
 
 @media (max-width: 667px) {
-  #letrero {
-    font-size: 10px;
+  aside {
+    text-shadow: 0 0 30px rgba(107, 73, 228, 0.8549019608);
+  }
+  aside #letrero {
+    margin-top: 10px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    font-family: "diseño mejor";
+    font-size: 35px;
+    color: white;
     text-align: center;
   }
 }
