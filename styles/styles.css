@@ -156,7 +156,6 @@ footer {
 }
 
 .header-step {
-  margin-bottom: 0px;
   display: flex;
   justify-content: center;
 }
@@ -166,6 +165,7 @@ footer {
   list-style: none;
   outline: none;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .header-step ul li {
