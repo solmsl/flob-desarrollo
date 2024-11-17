@@ -159,6 +159,8 @@ footer {
 
 .header-step ul {
   display: flex;
+  list-style: none;
+  outline: none;
 }
 
 .header-step ul li {
