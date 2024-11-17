@@ -234,6 +234,7 @@ footer {
   margin-bottom: 0px;
   display: flex;
   justify-content: center;
+  padding: 0px 10px;
 }
 
 .contiene-text-step ul {
@@ -270,10 +271,6 @@ footer {
 
 .contiene-text-step ul li.active-text p {
   background: var(--primary);
-}
-
-.texto_2_step {
-  margin-right: 5px;
 }
 
 h1, h3, label, p {
