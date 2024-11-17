@@ -117,7 +117,7 @@
 	background: var(--secondary);
 	color: var(--white);
 	text-align: center;
-	line-height: 50px;
+	// line-height: 50px;
 	// border-radius: 50%;
 }
 
@@ -133,6 +133,6 @@
 	background: var(--primary);
 }
 
-// .texto_2_step{
-//     margin-right: 5px;
-// }
+.texto_2_step{
+    margin-right: 5px;
+}
