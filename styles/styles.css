@@ -108,7 +108,6 @@ aside #letrero {
     text-shadow: 0 0 30px rgba(107, 73, 228, 0.8549019608);
   }
   aside #letrero {
-    margin-top: 10px;
     padding-top: 18px;
     padding-bottom: 15px;
     font-family: "diseño mejor";
@@ -231,7 +230,7 @@ footer {
   }
 }
 .contiene-text-step {
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   display: flex;
   justify-content: center;
 }
@@ -244,7 +243,7 @@ footer {
 }
 
 .contiene-text-step ul li {
-  margin-right: 40px;
+  margin-right: 20px;
   position: relative;
 }
 
@@ -259,7 +258,7 @@ footer {
 }
 
 .contiene-text-step ul li div {
-  padding: 10px;
+  padding: 5px;
 }
 
 .contiene-text-step ul li.active-text:before {
