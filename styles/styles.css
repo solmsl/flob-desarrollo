@@ -230,6 +230,10 @@ footer {
     height: 2px;
     background: var(--secondary);
   }
+  .contiene-text-step ul li {
+    margin-right: 50px;
+    position: relative;
+  }
 }
 .contiene-text-step {
   padding: 0;
