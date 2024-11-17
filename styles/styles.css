@@ -229,8 +229,9 @@ footer {
     height: 2px;
     background: var(--secondary);
   }
-  .form_1_progessbar {
-    margin-right: 12px;
+  .contiene-text-step ul li {
+    margin-right: 60px;
+    position: relative;
   }
 }
 .contiene-text-step {
