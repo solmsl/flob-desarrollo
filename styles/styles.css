@@ -246,6 +246,7 @@ footer {
 }
 
 .contiene-text-step ul li {
+  margin-right: 30px;
   position: relative;
 }
 
@@ -272,7 +273,7 @@ footer {
 }
 
 .texto_2_step {
-  padding-right: 5px;
+  margin-right: 5px;
 }
 
 h1, h3, label, p {
