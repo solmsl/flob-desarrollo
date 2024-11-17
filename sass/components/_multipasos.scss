@@ -66,24 +66,6 @@
 	background: var(--primary);
 }
 
-@media (max-width: 767px) { /* Estilos para dispositivos móviles */
-    .header-step ul li{
-        margin-right: 50px;
-        position: relative;
-    }
-    .header-step ul li:before{
-        top: 50%;
-        transform: translateY(-50%);
-        left: 52px;
-        width: 160%;
-        height: 2px;
-        background: var(--secondary);
-    }
-    .contiene-text-step ul li{
-        margin-right: 10px;
-    }
-}
-
 //subs debajo de los steps
 .contiene-text-step{
     padding: 0;
@@ -137,6 +119,24 @@
 	background: var(--primary);
 }
 
-.texto_2_step{
-    margin-right: 5px;
+// .texto_2_step{
+//     margin-right: 5px;
+// }
+
+@media (max-width: 767px) { /* Estilos para dispositivos móviles */
+    .header-step ul li{
+        margin-right: 50px;
+        position: relative;
+    }
+    .header-step ul li:before{
+        top: 50%;
+        transform: translateY(-50%);
+        left: 52px;
+        width: 160%;
+        height: 2px;
+        background: var(--secondary);
+    }
+    .contiene-text-step ul li{
+        margin-right: 46px;
+    }
 }
