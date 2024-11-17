@@ -366,4 +366,42 @@ form .page .btns button.next {
   font-family: "diseño mejor";
 }
 
+.titulo-cartanavid {
+  margin-right: 0;
+  text-align: left;
+  font-family: "font";
+  text-align: center;
+  font-size: 40px;
+  background: linear-gradient(rgb(0, 26, 255), rgb(185, 81, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.5490196078);
+  cursor: default;
+  transition: all 400ms ease-out;
+}
+.titulo-cartanavid__:hover {
+  transform: translateY(-3%);
+}
+
+.links p {
+  color: white;
+  padding: 3px;
+  margin: 3px;
+}
+
+.img-fluid {
+  float: left;
+  padding: 20px;
+}
+
+@media (max-width: 767px) { /* Estilos para dispositivos móviles */
+  .inicio {
+    padding: 20px; /* Agrega un poco de espacio al contenedor */
+  }
+  .links p {
+    text-align: center;
+    font-size: 16px; /* Ajusta el tamaño de la fuente si es necesario */
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
