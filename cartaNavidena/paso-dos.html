@@ -196,7 +196,7 @@
 
                     ctx.textAlign = 'center';
 
-                    // Mostrar título según la opción seleccionada
+                    //mostrar título según la opción seleccionada
                     if (displayOption === 'both' || displayOption === 'title') {
                         ctx.font = `${titleFontSize}px ${titleFontFamily}`;
                         ctx.fillStyle = `rgba(${titleColorRgb.r}, ${titleColorRgb.g}, ${titleColorRgb.b}, 1)`;
@@ -204,7 +204,7 @@
                         ctx.fillText(title, canvas.width / 2, titleY);
                     }
 
-                    // Mostrar frase según la opción seleccionada
+                    //mostrar frase según la opción seleccionada
                     if (displayOption === 'both' || displayOption === 'phrase') {
                         ctx.font = `${phraseFontSize}px ${phraseFontFamily}`;
                         ctx.fillStyle = `rgba(${phraseColorRgb.r}, ${phraseColorRgb.g}, ${phraseColorRgb.b}, 1)`;
