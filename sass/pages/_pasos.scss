@@ -142,3 +142,9 @@ h1, h3, label, p{
   text-align: center;
   font-family: 'diseño mejor';
 }
+
+@media (max-width: 667px) { 
+  .card-section {
+    padding: 15px 50px;
+  }
+}

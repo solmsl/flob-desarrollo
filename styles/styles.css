@@ -444,6 +444,11 @@ form .page .btns button.next {
   font-family: "diseño mejor";
 }
 
+@media (max-width: 667px) {
+  .card-section {
+    padding: 15px 50px;
+  }
+}
 .titulo-cartanavid {
   margin-right: 0;
   text-align: left;
