@@ -464,5 +464,11 @@ form .page .btns button.next {
     font-size: 16px; /* Ajusta el tamaño de la fuente si es necesario */
   }
 }
+.inputs-colors {
+  transition: 0.5s ease;
+}
+.inputs-colors :focus {
+  border-color: rgb(98, 65, 177);
+}
 
 /*# sourceMappingURL=styles.css.map */
