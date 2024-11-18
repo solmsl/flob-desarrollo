@@ -81,9 +81,16 @@
     border-radius: 10px;
     border: none;
     text-decoration: none;
-    transition: all 400ms ease-out;
+    // transition: all 400ms ease-out;
     font-family: 'prueba';
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: box-shadow 0.3s ease; /* Animación al pasar el cursor */
 }
+
+.btn_previsualizar:hover {
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Sombra más fuerte al pasar el cursor */
+}
+
 
 .btn-atras{
     @extend .btn_previsualizar;
