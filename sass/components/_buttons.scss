@@ -26,18 +26,18 @@
     }
 }
 
-// .btn_siguiente{
-//     background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
-//     color: white;
-//     font-size: 20px;
-//     padding: 10px 100px;
-//     border-radius: 10px;
-//     border: none;
-//     text-decoration: none;
-//     transition: all 400ms ease-out;
-//     margin: 4px;
-//     font-family: 'prueba';
-// }
+.btn_ultimoPaso{
+    background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
+    color: white;
+    font-size: 20px;
+    padding: 10px 100px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    transition: all 400ms ease-out;
+    margin: 4px;
+    font-family: 'prueba';
+}
 
 .botones_pasodos{
 
@@ -90,7 +90,7 @@
 }
 
 .btn_compartir{
-    @extend .btn_siguiente;
+    @extend .btn_ultimoPaso;
 }
 
 .btn_navidad{
