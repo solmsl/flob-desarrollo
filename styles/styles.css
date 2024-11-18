@@ -70,7 +70,7 @@ body {
   background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
   color: white;
   font-size: 16px;
-  padding: 4px 40px;
+  padding: 6px 35px;
   border-radius: 10px;
   border: none;
   text-decoration: none;
@@ -82,7 +82,7 @@ body {
   background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
   color: white;
   font-size: 16px;
-  padding: 4px 50px;
+  padding: 6px 50px;
   border-radius: 10px;
   border: none;
   text-decoration: none;
