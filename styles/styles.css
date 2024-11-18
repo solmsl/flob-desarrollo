@@ -65,6 +65,8 @@ body {
 
 .botones_pasodos {
   text-align: center;
+  margin-left: 2rem;
+  margin-top: 4px;
 }
 .botones_pasodos .btn_siguiente, .botones_pasodos .btn_compartir, .botones_pasodos .btn_navidad {
   background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
