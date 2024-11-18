@@ -468,7 +468,7 @@ form .page .btns button.next {
   transition: 0.5s ease;
 }
 .inputs-colors :focus {
-  border-color: rgb(98, 65, 177);
+  border-color: rgb(103, 225, 255);
 }
 
 /*# sourceMappingURL=styles.css.map */
