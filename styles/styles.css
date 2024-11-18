@@ -143,11 +143,11 @@ footer {
 .modal-header {
   color: white;
   font-family: "prueba";
-  background-color: rgb(98, 65, 177);
+  background-color: rgb(111, 1, 161);
 }
 
 .modal-body, .modal-footer {
-  background-color: rgb(98, 65, 177);
+  background-color: rgb(111, 1, 161);
 }
 
 :root {
