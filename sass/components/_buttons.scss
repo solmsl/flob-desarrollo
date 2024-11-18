@@ -46,8 +46,8 @@
     .btn_siguiente{
         background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
         color: white;
-        font-size: 20px;
-        padding: 10px 100px;
+        font-size: 16px;
+        padding: 4px 40px;
         border-radius: 10px;
         border: none;
         text-decoration: none;
@@ -57,7 +57,16 @@
     }   
 
     .btn_atras{
-        @extend .btn_siguiente;
+        background: linear-gradient(to left, rgb(111, 1, 161), rgb(62, 5, 116));
+        color: white;
+        font-size: 16px;
+        padding: 4px 50px;
+        border-radius: 10px;
+        border: none;
+        text-decoration: none;
+        transition: all 400ms ease-out;
+        margin: 4px;
+        font-family: 'prueba';
     }
 }
 
