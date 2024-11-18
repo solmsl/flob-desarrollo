@@ -222,7 +222,7 @@ footer {
 
 .contiene-text-step {
   padding: 0;
-  margin-bottom: 0px;
+  margin-bottom: 4px;
   display: flex;
   justify-content: center;
 }
