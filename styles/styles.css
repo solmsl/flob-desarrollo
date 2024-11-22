@@ -296,6 +296,10 @@ footer {
   color: var(--primary);
 }
 
+.texto_3_step {
+  margin-left: 13px;
+}
+
 @media (max-width: 767px) { /* Estilos para dispositivos móviles */
   .header-step ul li {
     margin-right: 50px;
