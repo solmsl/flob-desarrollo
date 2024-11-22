@@ -28,3 +28,14 @@ Fué creado por un grupo de estudiantes de 7mo año integrado por:
 ✽   **Umeres Martin**
 
 > ➤ ¿Qué problemas se dieron al crear la Página Web?
+En un principio, el problema fue la falta de conocimiento en lo que deseabamos implementar con el proyecto. Eso nos llevo a ser autodidactas durante el proceso de desarrollo.
+Otro problema que surgio fué la autoridad de un docente(no tehuelito y mati) de una materia externa a la pricipal quíen imponia cambios imprevistos durante el desarrollo, no tener un concepto claro llevo a que constantemente cambiemos la pagina web, por ende perdimos tiempo, tuvimos mucho estrés de por medio. 
+
+> ➤ Tecnológias Utilizadas
+✽   **JavaScript**
+
+✽   **Bootstrap**
+
+✽   **HTML**
+
+✽   **CSS**
