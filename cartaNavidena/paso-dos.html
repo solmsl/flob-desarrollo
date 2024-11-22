@@ -172,7 +172,6 @@
 
     <script>
         document.getElementById('previewButton').addEventListener('click', function() {
-            document.querySelector(".btn_siguiente").removeAttribute("onclick");
             // document.querySelector("#loader").style.display="block";
             const title = document.getElementById('titleInput').value || 'Título por defecto';
             const titleFontSize = parseInt(document.getElementById('titleFontSizeInput').value) || 35;
@@ -227,6 +226,7 @@
 
                     const modal = new bootstrap.Modal(document.getElementById('previewModal'));
                     modal.show();
+                    document.querySelector(".btn_siguiente").removeAttribute("onclick");
                 };
             } else {
                 console.error("No hay imagen seleccionada en localStorage.");
