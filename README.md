@@ -10,7 +10,7 @@ Flob es una emprendimiento productivo de origen estudiantil dedicado a la person
 > [!NOTE]
 >En flob podemos previsualizar nuestra carta antes de descargarla o compartirla y también volver un paso atrás por si queremos modificar algo que elegimos con anterioridad.
 
-## ¿Quien creó Flob?
+#### ¿Quien creó Flob?
 Fué creado por un grupo de estudiantes de 7mo año integrado por:
 
 
@@ -22,4 +22,4 @@ Fué creado por un grupo de estudiantes de 7mo año integrado por:
 
 ⚫ **Umeres Martin**
 
-## ¿Qué problemas se dieron al crear la pagina web?
+#### ¿Qué problemas se dieron al crear la pagina web?
