@@ -218,7 +218,7 @@ footer {
 .header-step ul li:before {
   content: "";
   position: absolute;
-  top: 42%;
+  top: 50%;
   transform: translateY(-50%);
   left: 52px;
   width: 160%;
