@@ -19,7 +19,7 @@
 
 ##  #️⃣ Q&A
 
-###  ➤  ¿Quien creó FLOB?
+###  ➤  ¿𝒬𝓊𝒾𝑒𝓃 𝒸𝓇𝑒𝑜 𝐹𝐿𝒪𝐵?
 Fué creado por un grupo de estudiantes de 7mo año integrado por:
 
 
@@ -31,7 +31,7 @@ Fué creado por un grupo de estudiantes de 7mo año integrado por:
 
 ✽   *Umeres Martin*
 
-### ➤ ¿Qué problemas se dieron al crear la Página Web?
+### ➤ ¿𝒬𝓊é 𝓅𝓇𝑜𝒷𝓁𝑒𝓂𝒶𝓈 𝓈𝑒 𝒹𝒾𝑒𝓇𝑜𝓃 𝒶𝓁 𝒸𝓇𝑒𝒶𝓇 𝓁𝒶 𝒫𝒶𝑔𝒾𝓃𝒶 𝒲𝑒𝒷?
 En un principio, el problema fue la falta de conocimiento en lo que deseabamos implementar con el proyecto. Eso nos llevo a ser autodidactas durante el proceso de desarrollo.
 Otro problema que surgio fué la autoridad de un docente(no tehuelito y mati) de una materia externa a la pricipal quíen imponia cambios imprevistos durante el desarrollo, no tener un concepto claro llevo a que constantemente cambiemos la pagina web, por ende perdimos tiempo, tuvimos mucho estrés de por medio. 
 
