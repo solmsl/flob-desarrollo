@@ -6,7 +6,8 @@ Flob es una emprendimiento productivo de origen estudiantil dedicado a la person
 2. Personalizar el tamaño, tipografia y color del titulo o de la frase
 3. Descargar o Compartir la carta creada con tus seres queridos.
 
-En flob podemos previsualizar nuestra carta antes de descargarla o compartirla y también volver un paso atrás por si queremos modificar algo que elegimos con anterioridad.
+> [!NOTE]
+>En flob podemos previsualizar nuestra carta antes de descargarla o compartirla y también volver un paso atrás por si queremos modificar algo que elegimos con anterioridad.
 
 ## ¿Quien creó Flob?
 Fué creado por un grupo de estudiantes de 7mo año integrado por:
