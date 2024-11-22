@@ -1,5 +1,5 @@
 
-# 🦥 FLOB    |    𝙿𝚘𝚛 𝚞𝚗 𝙳𝚒𝚜𝚎ñ𝚘 𝙼𝚎𝚓𝚘𝚛
+# 🦥 𝐹𝐿𝒪𝐵    |    𝙿𝚘𝚛 𝚞𝚗 𝙳𝚒𝚜𝚎ñ𝚘 𝙼𝚎𝚓𝚘𝚛
 
 <p align="center">
   <img src="https://res.cloudinary.com/dhr3ewnzn/image/upload/v1732313478/mbyfl5rjb1nrzrt7how6.png" alt="Logo">
