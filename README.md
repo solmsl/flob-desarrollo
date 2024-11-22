@@ -23,7 +23,7 @@ Fué creado por un grupo de estudiantes de 7mo año integrado por:
 
 ✽   **Mejia Vargas Micaela**
 
-✽   **Sosa Gosoy Candela**
+✽   **Sosa Godoy Candela**
 
 ✽   **Umeres Martin**
 
