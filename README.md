@@ -1,6 +1,6 @@
 
 # 🦥 FLOB 
-# 🎨 POR UN DISEÑO MEJOR
+### _"POR UN DISEÑO MEJOR"_
 
 
 
