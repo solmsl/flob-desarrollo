@@ -150,6 +150,16 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
+                    <div class="dot-spinner d-none" id="loader">
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                    </div>
                     <canvas id="canvasPreview"></canvas> 
                 </div>
                 <div class="modal-footer">
@@ -160,7 +170,9 @@
     </div>
 
     <script>
+        const loader=document.getElementById('loader');
        document.getElementById('previewButton').addEventListener('click', function() {
+            loader.classList('d-block');
             const title = document.getElementById('titleInput').value || 'Título por defecto';
             const titleFontSize = parseInt(document.getElementById('titleFontSizeInput').value) || 35;
             const titleColor = document.getElementById('titleColorInput').value || '#ECF0F1';
