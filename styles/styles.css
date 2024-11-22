@@ -221,7 +221,7 @@ footer {
   top: 50%;
   transform: translateY(-50%);
   left: 52px;
-  width: 454%;
+  width: 255%;
   height: 2px;
   background: var(--secondary);
   color: var(--secondary);
