@@ -1,5 +1,5 @@
 
-# 🦥 𝐹𝐿𝒪𝐵    |    𝙿𝚘𝚛 𝚞𝚗 𝙳𝚒𝚜𝚎ñ𝚘 𝙼𝚎𝚓𝚘𝚛
+# 🦥 FLOB    |    *❝ Por un Diseño Mejor ❞*
 
 <p align="center">
   <img src="https://res.cloudinary.com/dhr3ewnzn/image/upload/v1732313478/mbyfl5rjb1nrzrt7how6.png" alt="Logo">
@@ -19,7 +19,7 @@
 
 ##  #️⃣ Q&A
 
-###  ➤  ¿𝐐𝐮𝐢𝐞𝐧 𝐜𝐫𝐞𝐨 𝐅𝐋𝐎𝐁?
+###  ➤  ¿Quien creó FLOB?
 Fué creado por un grupo de estudiantes de 7mo año integrado por:
 
 
@@ -31,15 +31,21 @@ Fué creado por un grupo de estudiantes de 7mo año integrado por:
 
 ✽   *Umeres Martin*
 
-### ➤ ¿𝐐𝐮𝐞 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐚𝐬 𝐬𝐞 𝐝𝐢𝐞𝐫𝐨𝐧 𝐚𝐥 𝐜𝐫𝐞𝐚𝐫 𝐥𝐚 𝐏𝐚𝐠𝐢𝐧𝐚 𝐖𝐞𝐛?
-En un principio, el problema fue la falta de conocimiento en lo que deseabamos implementar con el proyecto. Eso nos llevo a ser autodidactas durante el proceso de desarrollo.
-Otro problema que surgio fué la autoridad de un docente(no tehuelito y mati) de una materia externa a la pricipal quíen imponia cambios imprevistos durante el desarrollo, no tener un concepto claro llevo a que constantemente cambiemos la pagina web, por ende perdimos tiempo, tuvimos mucho estrés de por medio. 
+### ➤ ¿Qué problemas se dieron al crear la Página Web?
+En un principio, el problema fue la falta de conocimiento en API y Librerias en lo que deseabamos implementar con el proyecto. Eso nos llevo a ser autodidactas durante el proceso de desarrollo con la implementación de las mismas.
+Otro problema que surgio fué la autoridad de un docente(no tehuelito y mati) de una materia externa a la pricipal quíen imponia cambios imprevistos durante el desarrollo, no tener un concepto claro llevo a que constantemente cambiemos la pagina web, por ende perdimos tiempo, tuvimos mucho estrés y a veces con menos motivación. 
+
+### ➤ ¿Qué nos gustó del proyecto?
+El trabajo en equipo, supimos llevar un buen ambito de desarrollo. El apoyo de los profes de plataformas moviles, fue muy bueno debido a que nos acompañaron con ideas y aportes para implementar en la web. 
+Tambien, la idea de que el usuario pueda generar su propio diseño de forma facil, nos motiva a seguir implementando eventos. Ya que apuntamos a aquel publico que no tiene experiencia o conocimiento sobre diseño.
 
 ## 🛠 Skills
 ✽   **JavaScript**
 
 ✽   **Bootstrap**
 
-✽   **HTML**
+✽   **HTML5**
 
 ✽   **CSS**
+
+✽   **SASS**
