@@ -1,5 +1,5 @@
 
-# 🦥 FLOB  |  *"Por un Diseño Mejor"*
+# 🦥 FLOB    |    *"Por un Diseño Mejor"*
 
 
 
