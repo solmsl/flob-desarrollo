@@ -9,6 +9,7 @@
     <title>Comparte</title>
 </head>
 <body>
+    <div id="overlay"></div>
     <div class="text-center" style="margin-top: 14px;">
         <img src="../imagenes/logotipo_flob_con-letra.png" alt="Logo" height="70">
     </div>
@@ -36,7 +37,18 @@
             </li>
         </ul>
     </div>
-  
+    <div class="spinner">
+        <div class="barra"></div>   
+        <div class="barra"></div>    
+        <div class="barra"></div>    
+        <div class="barra"></div>    
+        <div class="barra"></div>    
+        <div class="barra"></div>    
+        <div class="barra"></div>    
+        <div class="barra"></div>    
+        <div class="barra"></div>    
+        <div class="barra"></div>    
+    </div>
     <div class="contiene-text-step">
         <ul>
             <li class="active-text texto_1_step">
@@ -76,21 +88,35 @@
     
 
     <script>
+        function estado(valor){
+            console.log("mostrar");
+            document.querySelector(".spinner").style.display=`${valor}`;
+            document.querySelector('#overlay').style.display = `${valor}`;
+            console.log(document.querySelectorAll('.barra'));
+            document.querySelectorAll('.barra').forEach(element => {
+                element.style.display="block";
+            });
+        }
         document.getElementById('downloadButton').addEventListener('click', function() {
+            estado('block');
             const cartaNavidena = localStorage.getItem('cartaNavidena');
             if (cartaNavidena) {
                 const link = document.createElement('a');
                 link.href = cartaNavidena;
+                estado('none')
                 link.download = 'carta_navidena_flob.png';
                 link.click(); //simula un click en el enlace para iniciar la descarga
             } else {
+                estado('none')
                 alert('No hay carta navideña para descargar.');
             }
         });
 
         document.getElementById('shareButton').addEventListener('click', function() {
+            estado('block');
             const cartaNavidena = localStorage.getItem('cartaNavidena');
             if (!cartaNavidena) {
+                estado('none');
                 alert('No hay carta navideña para compartir.');
                 console.log("algo anda mal :c");
                 return;
@@ -117,6 +143,7 @@
             .then(response => response.json())
             .then(data => {
                 if (data.secure_url) {
+                    estado('none');
                     console.log('Imagen subida a Cloudinary:', data.secure_url);
                     alert('Imagen subida exitosamente!');
 
@@ -126,10 +153,12 @@
 
                     window.open(whatsappUrl, '_blank');
                 } else {
+                    estado('none');
                     alert('Error al subir la imagen a Cloudinary.');
                 }
             })
             .catch(error => {
+                estado('none');
                 console.error('Error al subir la imagen a Cloudinary:', error);
                 alert(`Error al subir la imagen: ${error.message}`);
             });

@@ -139,8 +139,17 @@
     <br>
     <div class="botones_pasodos d-flex justify-content-between">
         <a href="./paso-uno.html" class="btn_atras">Atrás</a>
-        <a href="./paso-tres.html" class="btn_siguiente">Siguiente</a>
+        <a href="./paso-tres.html" class="btn_siguiente" onclick="return false;">Siguiente</a>
     </div>
+    <div class="dot-spinner" id="loader">
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
     <!-- Modal -->
     <div class="modal fade" id="previewModal" tabindex="-1" aria-labelledby="previewModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-custom-size">
@@ -148,15 +157,7 @@
                 <div class="modal-header">
                     <h5 class="modal-title" id="previewModalLabel">Previsualización</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div class="dot-spinner" id="loader" style="display: none;">
-                        <div class="dot-spinner__dot"></div>
-                        <div class="dot-spinner__dot"></div>
-                        <div class="dot-spinner__dot"></div>
-                        <div class="dot-spinner__dot"></div>
-                        <div class="dot-spinner__dot"></div>
-                        <div class="dot-spinner__dot"></div>
-                        <div class="dot-spinner__dot"></div>
-                        <div class="dot-spinner__dot"></div>
+                    
                     </div>
                 </div>
                 <div class="modal-body">
@@ -170,8 +171,8 @@
     </div>
 
     <script>
-       document.getElementById('previewButton').addEventListener('click', function() {
-            document.querySelector("#loader").style.display="block";
+        document.getElementById('previewButton').addEventListener('click', function() {
+            // document.querySelector("#loader").style.display="block";
             const title = document.getElementById('titleInput').value || 'Título por defecto';
             const titleFontSize = parseInt(document.getElementById('titleFontSizeInput').value) || 35;
             const titleColor = document.getElementById('titleColorInput').value || '#ECF0F1';
@@ -225,6 +226,7 @@
 
                     const modal = new bootstrap.Modal(document.getElementById('previewModal'));
                     modal.show();
+                    document.querySelector(".btn_siguiente").removeAttribute("onclick");
                 };
             } else {
                 console.error("No hay imagen seleccionada en localStorage.");
