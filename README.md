@@ -15,16 +15,16 @@
 
 En flob podemos previsualizar nuestra carta antes de descargarla o compartirla y también volver un paso atrás por si queremos modificar algo que elegimos con anterioridad.
 
-####  ➤ ¿Quien creó FLOB?
+####  ➤  ¿Quien creó FLOB?
 Fué creado por un grupo de estudiantes de 7mo año integrado por:
 
 
-✽ **Mejia Sile Sol**
+✽   **Mejia Sile Sol**
 
-✽ **Mejia Vargas Micaela**
+✽   **Mejia Vargas Micaela**
 
-✽ **Sosa Gosoy Candela**
+✽   **Sosa Gosoy Candela**
 
-✽ **Umeres Martin**
+✽   **Umeres Martin**
 
 #### ➤ ¿Qué problemas se dieron al crear la Página Web?
