@@ -19,12 +19,12 @@ En flob podemos previsualizar nuestra carta antes de descargarla o compartirla y
 Fué creado por un grupo de estudiantes de 7mo año integrado por:
 
 
-✽   **Mejia Sile Sol**
+✽   *Mejia Sile Sol*
 
-✽   **Mejia Vargas Micaela**
+✽   *Mejia Vargas Micaela*
 
-✽   **Sosa Godoy Candela**
+✽   *Sosa Godoy Candela*
 
-✽   **Umeres Martin**
+✽   *Umeres Martin*
 
 ## ➤ ¿Qué problemas se dieron al crear la Página Web?
