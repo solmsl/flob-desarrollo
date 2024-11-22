@@ -2,17 +2,17 @@
 # 🦥 FLOB: *"POR UN DISEÑO MEJOR"*
 
 
-> Flob es una emprendimiento productivo de origen estudiantil dedicado a la personalizacion de cartas para distintas epocas del año, actualmente cuenta exclusivamente con la personalización de cartas navideñas por medio de una pagina web siguiendo una serie de 3 simples pasos:
+Flob es una emprendimiento productivo de origen estudiantil dedicado a la personalizacion de cartas para distintas epocas del año, actualmente cuenta exclusivamente con la personalización de cartas navideñas por medio de una pagina web siguiendo una serie de 3 simples pasos:
 
 
-> 1️⃣ Elegir un fondo
+1️⃣ Elegir un fondo
 
-> 2️⃣ Personalizar el tamaño, tipografia y color del titulo o de la frase
+2️⃣ Personalizar el tamaño, tipografia y color del titulo o de la frase
 
-> 3️⃣ Descargar o Compartir la carta creada con tus seres queridos.
+3️⃣ Descargar o Compartir la carta creada con tus seres queridos.
 
 
->En flob podemos previsualizar nuestra carta antes de descargarla o compartirla y también volver un paso atrás por si queremos modificar algo que elegimos con anterioridad.
+En flob podemos previsualizar nuestra carta antes de descargarla o compartirla y también volver un paso atrás por si queremos modificar algo que elegimos con anterioridad.
 
 #### ¿Quien creó Flob?
 Fué creado por un grupo de estudiantes de 7mo año integrado por:
