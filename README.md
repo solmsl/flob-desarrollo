@@ -1,7 +1,7 @@
 
 # 🦥 FLOB: *"POR UN DISEÑO MEJOR"*
 
-
+> [!IMPORTANT]
 > Flob es una emprendimiento productivo de origen estudiantil dedicado a la personalizacion de cartas para distintas epocas del año, actualmente cuenta exclusivamente con la personalización de cartas navideñas por medio de una pagina web siguiendo una serie de 3 simples pasos:
 
 > 1️⃣ Elegir un fondo
