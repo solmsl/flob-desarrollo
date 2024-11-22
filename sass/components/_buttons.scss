@@ -97,7 +97,18 @@
 }
 
 .btn_compartir{
-    @extend .btn_ultimoPaso;
+    background: linear-gradient(to top, rgb(119, 15, 148), rgb(90, 10, 90), rgb(75, 21, 97));
+    color: white;
+    font-size: 20px;
+    padding: 10px 100px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    // transition: all 400ms ease-out;
+    font-family: 'prueba';
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease; 
+    margin: 9px
 }
 
 .btn_navidad{

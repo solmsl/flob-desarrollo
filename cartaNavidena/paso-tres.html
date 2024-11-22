@@ -58,14 +58,17 @@
     </div>
 
     <!-- Ultima Vista -->
-    <main>
-        <img src="../imagenes/digitalizaciòn_impresión.jpg" alt="" class="img-fluid" style="margin-left: 150px;">
-        <br><br>
-        <div class="pasotres">
-            <button id="downloadButton" class="btn_navidad">Descargar mi carta navideña</button> <br>  
+    <main class="row">
+        <div class="col-md-6 col-12 ml-md-3">
+            <img src="../imagenes/digitalizaciòn_impresión.jpg" alt="Imagen de Navidad" class="img-fluid">
+        </div>
+        
+        <div class="col-md-6 col-12 d-flex flex-column justify-content-center align-items-center pasotres">
+            <button id="downloadButton" class="btn_navidad mb-3">Descargar mi carta navideña</button> 
             <button id="shareButton" class="btn_compartir">Compartir por WhatsApp!</button>
         </div>
-    </main> <br>
+    </main>
+    
 
     <script>
         document.getElementById('downloadButton').addEventListener('click', function() {
