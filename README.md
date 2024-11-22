@@ -1,5 +1,6 @@
 
-# 🦥 <h1 style="color: violet;">POR UN DISEÑO MEJOR</h1>
+# 🦥 FLOB 
+## *"Por un Diseño Mejor"*
 
 
 Flob es una emprendimiento productivo de origen estudiantil dedicado a la personalizacion de cartas para distintas epocas del año, actualmente cuenta exclusivamente con la personalización de cartas navideñas por medio de una pagina web siguiendo una serie de 3 simples pasos:
