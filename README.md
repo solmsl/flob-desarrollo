@@ -13,9 +13,12 @@ Flob es una emprendimiento productivo de origen estudiantil dedicado a la person
 Fué creado por un grupo de estudiantes de 7mo año integrado por:
 
 
-**Mejia Sile Sol
-Mejia Vargas Micaela
-Sosa Gosoy Candela
-Umeres Martin**
+** ⚫ Mejia Sile Sol
+
+⚫ Mejia Vargas Micaela
+
+⚫ Sosa Gosoy Candela
+
+⚫ Umeres Martin**
 
 ## ¿Qué problemas se dieron al crear la pagina web?
