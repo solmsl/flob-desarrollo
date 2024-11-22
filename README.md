@@ -13,7 +13,7 @@
 3️⃣ Descargar o Compartir la carta creada con tus seres queridos.
 
 
-En flob podemos previsualizar nuestra carta antes de descargarla o compartirla y también volver un paso atrás por si queremos modificar algo que elegimos con anterioridad.
+⤳ En flob podemos previsualizar nuestra carta antes de descargarla o compartirla y también volver un paso atrás por si queremos modificar algo que elegimos con anterioridad.
 
 ##  ➤  ¿Quien creó FLOB?
 Fué creado por un grupo de estudiantes de 7mo año integrado por:
