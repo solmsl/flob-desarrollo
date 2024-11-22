@@ -28,3 +28,7 @@ Fué creado por un grupo de estudiantes de 7mo año integrado por:
 ✽   *Umeres Martin*
 
 ## ➤ ¿Qué problemas se dieron al crear la Página Web?
+
+
+## 🛠 Skills
+Javascript, HTML, CSS, SASS
